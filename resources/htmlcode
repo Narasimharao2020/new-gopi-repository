@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>CUSTOMER DATABASE</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>customerid</th>
+    <th>firstname</th>
+    <th>city</th>
+    <th>state</th>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>Prabhas</td>
+    <td>HYD</td>
+    <th>AP</th>
+  </tr>
+  <tr>
+    <td>200</td>
+    <td>Bahubali</td>
+    <td>HYD</td>
+    <th>Ap</th>
+  </tr>
+</table>
+
+</body>
+</html>
+

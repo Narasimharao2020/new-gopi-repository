@@ -1,0 +1,11 @@
+[{ 
+   "customerid": 5,
+  "firstname": "Raja",
+  "city": "HYD",
+  "state": "AP"
+},{ 
+   "customerid": 6,
+  "firstname": "Raja",
+  "city": "HYD",
+  "state": "AP"
+}]

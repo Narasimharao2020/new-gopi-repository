@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="inputjson" format="json">
+      <types:shape format="weave" example="examples/jsonexample1.json"><![CDATA[%dw 2.0
+
+type inputjson = Array<{|  customerid: Number {"typeId": "int"},   firstname: String,   city: String,   state: String|}> {"example": "[{\\\"customerid\\\":5,\\\"firstname\\\":\\\"Raja\\\",\\\"city\\\":\\\"HYD\\\",\\\"state\\\":\\\"AP\\\"},{\\\"customerid\\\":6,\\\"firstname\\\":\\\"Raja\\\",\\\"city\\\":\\\"HYD\\\",\\\"state\\\":\\\"AP\\\"}]"}
+
+]]></types:shape>
+    </types:type>
+  </types:catalog>
+</types:mule>
